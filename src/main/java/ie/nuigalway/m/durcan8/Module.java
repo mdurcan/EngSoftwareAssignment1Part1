@@ -1,11 +1,12 @@
 package ie.nuigalway.m.durcan8;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Module {
 
 	private String ModuleName, ID;
-	private List<Student> students;
+	private ArrayList<Student> students=new ArrayList<Student>();
 	
 	public Module(String Name, String ModuleCode){
 		this.ModuleName=Name;

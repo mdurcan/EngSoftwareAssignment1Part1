@@ -1,5 +1,6 @@
 package ie.nuigalway.m.durcan8;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.joda.time.DateTime;
@@ -7,7 +8,7 @@ import org.joda.time.DateTime;
 public class Course {
 
 	private String CourseName;
-	private List<Module> modules;
+	private ArrayList<Module> modules = new ArrayList<Module>();
 	private DateTime Start, End;
 	
 	public Course(String Name, DateTime StartDate, DateTime EndDate){
