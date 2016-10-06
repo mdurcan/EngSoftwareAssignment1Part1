@@ -5,6 +5,6 @@ after_success:
 - mvn clean cobertura: cobertura
 -mvn test
 notifications:
-email:
-recipients:
+ email:
+ recipients:
 - m.durcan8@nuigalway.ie
